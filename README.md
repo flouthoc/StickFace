@@ -1,34 +1,46 @@
 # StickFace
-An Awesome DeskTop Sticky Widget which Follows you Everywhere .Written in C language.Built With Gtk For Gnome and Unity Environment.Well Tested Under Ubuntu
+An awesome desktop sticky widget which follows you everywhere. Written in C and built with GTK for GNOME and Unity desktop environments. Well tested under Ubuntu.
 
-#Requirements
+# Requirements
 1. Linux
 2. GCC
 3. Gtk-Bundle
 
-#Compiling The src.c
+# Install dependencies
+## Ubuntu
+```shell
+sudo apt-get install gcc libgtk-3-dev
+```
+
+# Compiling from source
 ```shell
 gcc src.c $(pkg-config --cflags --libs gtk+-3.0) -o sticky
 ```
-#Features
-1. StickFace's special feature is to follow you around your WorkSpace Until You Give it Command "Go To DeskTop"
-![Go To DeskTop](https://www.anonimg.com/img/910bd31e0b3fd9e75cf5b8c9ce7eef65.png "Go To DeskTop")
-2. Click on "Follow Me" Again Toggles StickFace To Follow You Around The Screen 
+# Features
+1. StickFace's special feature is to follow you around your workspace until you give it the command "Go To Desktop"
+
+![Go To Desktop](https://www.anonimg.com/img/910bd31e0b3fd9e75cf5b8c9ce7eef65.png "Go to Desktop")
+
+2. Click on "Follow Me" again toggles StickFace to follow you around the screen 
+
 ![Follow Me](https://www.anonimg.com/img/198aa7304b87c25d5318c55fcb145ae7.png "Follow Me")
-3. Click on "Add New" Creates a New Stick Screen For Second Note
+
+3. Click on "Add New" creates a New Stick Screen for a second note
+
 ![New](https://www.anonimg.com/img/a604405c31d8b68c327b06633e6e498b.png "New Note")
 
-#Usage
-> 1. data_file_1.stick (is the Database File it is resonsible for holding databse for StickFace)
-> 2. Run the Executable 
+# Usage
+1. data_file_1.stick (is the database file and is responsible for holding the database for StickFace)
+2. Run the executable: `sticky`
 
-#Contributing
-I'll Try To Merge Every Pull Request Which I'll Get
+# Contributing
+I'll try to merge every pull request which I receive.
 
-#Bugs and Errors
-#####There are Lot Of Bugs in StickFace It is Not Stable For Use ,Help Me Fix Them
-1. Every Time StickFace Loads Data From Datafile 4 Extra StickFace Comes into Runtime Stack
-2. DataBase Update Module Not Ready
-3. Glitches Not Fixed
+# Bugs and Errors
+**There are a few bugs in StickFace. It is not stable for daily use yet. Help me fix them!**
+
+1. Every time StickFace loads data from the data file, four extra StickFace interfaces comes into the run-time stack
+2. Database update module not ready
+3. Glitches not fixed
 4. Some Times Become Annoying ( UX problem)
 
