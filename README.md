@@ -14,7 +14,7 @@ sudo apt-get install gcc libgtk-3-dev
 
 # Compiling from source
 ```shell
-gcc src.c $(pkg-config --cflags --libs gtk+-3.0) -o sticky
+mkdir -p bin/; gcc src.c $(pkg-config --cflags --libs gtk+-3.0) -o bin/sticky
 ```
 # Features
 1. StickFace's special feature is to follow you around your workspace until you give it the command "Go To Desktop"
@@ -31,7 +31,7 @@ gcc src.c $(pkg-config --cflags --libs gtk+-3.0) -o sticky
 
 # Usage
 1. data_file_1.stick (is the database file and is responsible for holding the database for StickFace)
-2. Run the executable: `sticky`
+2. Run the executable: `bin/sticky`
 
 # Contributing
 I'll try to merge every pull request that I receive.
