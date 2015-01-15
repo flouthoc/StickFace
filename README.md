@@ -22,6 +22,9 @@ gcc src.c $(pkg-config --cflags --libs gtk+-3.0) -o sticky
 > 1. data_file_1.stick (is the Database File it is resonsible for holding databse for StickFace)
 > 2. Run the Executable 
 
+#Contributing
+I'll Try To Merge Every Pull Request Which I'll Get
+
 #Bugs and Errors
 #####There are Lot Of Bugs in StickFace It is Not Stable For Use ,Help Me Fix Them
 1. Every Time StickFace Loads Data From Datafile 4 Extra StickFace Comes into Runtime Stack
