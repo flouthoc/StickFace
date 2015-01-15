@@ -34,7 +34,7 @@ gcc src.c $(pkg-config --cflags --libs gtk+-3.0) -o sticky
 2. Run the executable: `sticky`
 
 # Contributing
-I'll try to merge every pull request which I receive.
+I'll try to merge every pull request that I receive.
 
 # Bugs and Errors
 **There are a few bugs in StickFace. It is not stable for daily use yet. Help me fix them!**
@@ -42,5 +42,5 @@ I'll try to merge every pull request which I receive.
 1. Every time StickFace loads data from the data file, four extra StickFace interfaces comes into the run-time stack
 2. Database update module not ready
 3. Glitches not fixed
-4. Some Times Become Annoying ( UX problem)
+4. Some times it becomes annoying (UX problem)
 
