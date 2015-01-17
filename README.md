@@ -1,6 +1,9 @@
 # StickFace
 An awesome desktop sticky widget which follows you everywhere. Written in C and built with GTK for GNOME and Unity desktop environments. Well tested under Ubuntu.
 
+# This is obsolete Version . Catch The Stable Release
+[Stable Version!](https://github.com/argunner/StickFace2)
+
 # Requirements
 1. Linux
 2. GCC
