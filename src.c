@@ -2,8 +2,8 @@
 		Built in Gtk
 		For Unity and Gnome Environment
 		Tested in Ubuntu
-	Author:argunner(gunnerar7@gmail.com)
-	Github:https://github.com/argunner
+	Author:flothoc(gunnerar7@gmail.com)
+	Github:https://github.com/flothoc
 */
 
 
@@ -130,7 +130,7 @@ void about(GtkWidget *widget,gpointer data){
   gtk_about_dialog_set_program_name(GTK_ABOUT_DIALOG(dialog),"StickFace");
   gtk_about_dialog_set_version(GTK_ABOUT_DIALOG(dialog),"1.0");
    gtk_about_dialog_set_comments(GTK_ABOUT_DIALOG(dialog), "StickFace is a Simple Tool to Enhance the Application of Native Sticky Widget.");
-   gtk_about_dialog_set_website(GTK_ABOUT_DIALOG(dialog),"http://www.github.com/argunner");
+   gtk_about_dialog_set_website(GTK_ABOUT_DIALOG(dialog),"http://www.github.com/flothoc");
    gtk_about_dialog_set_copyright(GTK_ABOUT_DIALOG(dialog), "If You Are Contributer Add YOur Name Here.");
    gtk_dialog_run(GTK_DIALOG (dialog));
   gtk_widget_destroy(dialog);
